@@ -20,10 +20,18 @@ namespace OOP1
             //case sensitive
             ProductManager productManager = new ProductManager(); 
             productManager.Add(product1);
-            Console.WriteLine(product1.ProductName);
 
 
+            //Product[] products =new Product[] {product1,product2 };
+            //foreach (var Product in products)
+            //{
+            //    Console.WriteLine("ID: "+Product.Id + " //Kategori ID: " + Product.CategoryId + " //Ürün Adı: " + Product.ProductName + " //Birim Fiyatı: " + Product.UnitPrice + " //Ürün Stoğu: " + Product.UnitsInStock);
+            //}
 
+            productManager.List(product2);
+            productManager.List(product1);
+
+            Console.ReadKey();
             //int,double,bool... değer tip
             //diziler,class, abstract class, interface ... referans tip
             //ref out

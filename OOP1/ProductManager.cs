@@ -16,6 +16,17 @@ namespace OOP1
         {
             Console.WriteLine(product.ProductName + " güncellendi.");
         }
+        public void List(Product product)
+        {
+            Console.WriteLine("********************");
+            Console.WriteLine("ID:           " + product.Id);
+            Console.WriteLine("Kategori ID:  " + product.CategoryId);
+            Console.WriteLine("Ürün Adı:     " + product.ProductName);
+            Console.WriteLine("Birim Fiyatı: " + product.UnitPrice);
+            Console.WriteLine("Ürün Stoğu:   " + product.UnitsInStock);
+            Console.WriteLine("********************");
+            
+        }
 
     }
 }
