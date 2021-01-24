@@ -13,8 +13,7 @@ namespace OOP1
             product1.UnitPrice = 500;
             product1.UnitsInStock = 3;
 
-            Product product2 = new Product {Id = 2, CategoryId=5, 
-                UnitsInStock = 5, ProductName="Kalem", UnitPrice= 35};
+            Product product2 = new Product {Id = 2, CategoryId=5, UnitsInStock = 5, ProductName="Kalem", UnitPrice= 35};
 
             //PascalCase   //camelCase
             //case sensitive
